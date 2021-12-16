@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Movie Ticket Booking </title>
+  <link rel="stylesheet" href="css/style3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Movie Ticket Booking</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">ID</span>
+            <input type="text" placeholder="Enter Id" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Amount</span>
+            <input type="text" placeholder="Enter Amount" required>
+          </div>
+        </div>
+        <label for="ex">Movie : </label>
+        <select id="movie" name="level">
+          <option value="">Select a Movie</option>
+          <option value="fate8">POC</option>
+          <option value="fist5">Fist Five</option>
+          <option value="logan">Guardians of galaxy 2</option>
+          <option value="ww">Wonder Woman</option>
+          <option value="cars3">Cars 3</option>
+          <option value="mummy">Mummy</option>
+        </select>
+        <label for="ext">Seat: </label>
+        <select id="seat" name="level">
+          <option value="">Select a Quantity</option>
+          <option value="1">Cabin</option>
+          <option value="2">Balcony</option>
+          <option value="3">Deluxe</option>
+          <option value="4">Special</option>
+          <option value="5">Drescal</option>
+
+        </select>
+        <label for="ext">Show Time: </label>
+        <select id="showtime" name="level">
+          <option value="">Select a Time</option>
+          <option value="1">8:00AM</option>
+          <option value="2">12:00PM</option>
+          <option value="3">3:00PM</option>
+          <option value="4">6:00PM</option>
+          <option value="5">9:00PM</option>
+
+        </select>
+        <br> <br>
+        <div class="payment-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <span class="payment-title">Payment</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="esewa">Esewa</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="cob">Cash On Book</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Book Now" onclick="location.href='index.html'"></a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
